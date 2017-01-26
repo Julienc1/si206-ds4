@@ -52,3 +52,7 @@ class LeapYearTest(unittest.TestCase):
         self.assertTrue(check_leap_year(1912))
     def test_3(self):
         self.assertTrue(check_leap_year(2000))
+    def test_4(self):
+        self.assertTrue(check_leap_year(1600))
+        
+
